@@ -1,16 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'user-item',
   templateUrl:'./user-list.component.html',
-  //styleUrls: ['./hello-world.component.css']
+  //styleUrls: ['./user-item.component.css']
 })
 
 export class UserItemComponent implements OnInit {
-  names: string [];
+  @Input() name: string;
 
   constructor() {
-    this.names = ['Ari', 'Carlos', 'Felipe', 'Nate'];
   }
 
   ngOnInit() {
