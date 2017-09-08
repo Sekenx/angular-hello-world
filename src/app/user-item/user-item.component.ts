@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   //styleUrls: ['./hello-world.component.css']
 })
 
-export class UserListComponent implements OnInit {
+export class UserItemComponent implements OnInit {
   names: string [];
 
   constructor() {
