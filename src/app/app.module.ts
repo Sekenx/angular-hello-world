@@ -9,7 +9,7 @@ import { UserListComponent } from './user-item/user-list.component';
   declarations: [
     AppComponent,
     HelloWorldComponent,
-    UserListComponent
+    UserListComponent,
   ],
   imports: [
     BrowserModule
